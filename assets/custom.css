@@ -1,0 +1,52 @@
+body {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+.dash-table-container .dash-spreadsheet {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.Select-control,
+.dcc-graph,
+.dash-leaflet {
+  background-color: #2f2f2f !important;
+  color: #ffffff !important;
+}
+
+.dark-dropdown .Select-control {
+  background-color: #333333 !important;
+  border-color: #444444 !important;
+}
+
+.dark-dropdown .Select-value-label,
+.dark-dropdown .Select-placeholder {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.dark-dropdown .Select-menu-outer {
+  background-color: #333333 !important;
+  border-color: #444444 !important;
+}
+
+.dark-dropdown .Select-option {
+  background-color: #333333 !important;
+  color: white !important;
+}
+
+.dark-dropdown .Select-option.is-focused {
+  background-color: #555555 !important;
+}
+
+.dark-dropdown .Select-option.is-selected {
+  background-color: #777777 !important;
+  color: white !important;
+}
+
+.dark-dropdown .Select-input {
+  background-color: #333333 !important;
+  border-color: #444444 !important;
+}
+    
