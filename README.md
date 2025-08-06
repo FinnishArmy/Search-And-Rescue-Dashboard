@@ -90,6 +90,9 @@ For example you can type "Adoption" into the 'outcome_type' column and you will 
    + To close the repo from Github.
 * Jupyter Notebook
    + This is to run the test script(s). However you may use your own IDE.
+* DASH Framework
+  + [https://dash.plotly.com/](https://dash.plotly.com/installation)
+  + The Dash Python framework builds data reactive web applications follows the Model-View-Controller and allows you to program the View layout in pure Python with HTML elements. You then use "Callbacks" to send information to the Controller layer.
  
 ### Attributes
 In the CRUD.py python library, I have created the following functionality that aligns with the fundamental elements of "CRUD."
