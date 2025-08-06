@@ -8,6 +8,7 @@
 
 ## Table of Contents
 - [About the Project](#about-the-project)
+- [Why MongoDB?](#why-mongodb)
 - [Getting Started](#getting-started)
 - [Import The Database](#import-database)
    * [Import](#import-the-database)
@@ -29,6 +30,9 @@
 
 ## About the project
 Grazioso Salvare identifies dogs that are good candidates for search-and-rescue training. When trained, these dogs are able to find and help to rescue humans or other animals, often in life-threatening conditions.
+
+## Why MongoDB?
+MongoDB provides great flexibility and scalability of JSON data formats. On top of this it makes it easy to implement Python functionality directly.
 
 ## Getting Started
 To get a local copy up and running, follow these simple example steps.
@@ -99,6 +103,11 @@ If desired, you may also select 'Include Mixes' to include the specified breeds 
 </p>
 <p align="center">
 <img width="1066" height="794" alt="image" src="https://github.com/user-attachments/assets/f1f80f31-e084-4fdb-982c-8352a3226ac9" />
+</p>
+
+Lastly, you can filter by age range, simply select the range on the slider for the animals between a certain age
+<p align="center">
+<img width="3616" height="1086" alt="image" src="https://github.com/user-attachments/assets/59007af3-ac79-4a45-9db6-19496d6bafd8" />
 </p>
 
 ## Specific Filters
