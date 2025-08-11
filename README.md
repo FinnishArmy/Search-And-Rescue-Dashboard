@@ -26,7 +26,7 @@
   * [Sunburst](#sunburst)
   * [Styling](#styling)
   * [Logo](#logo)
-
+- [Q&A](#q&a)
 
 ## About the project
 Grazioso Salvare identifies dogs that are good candidates for search-and-rescue training. When trained, these dogs are able to find and help to rescue humans or other animals, often in life-threatening conditions.
@@ -188,6 +188,25 @@ Below shows the test for creation, reading, updating and deletion. If this does 
 
 <img width="828" height="521" alt="image" src="https://github.com/user-attachments/assets/8043404a-6e7a-45a1-aa0f-de9b34a4bc14" />
 
+## Q & A
+### How do you write programs that are maintainable, readable, and adaptable?
+By ensuring that your code follows the basic rules of programming (ACID):
+A - Atomicity: ensure that every action works, if one single transaction fails the entire transaction must be rolled back.
+C - Consistency: every transaction must bring the database from one valid state to another valid state. Any data written to the database must adhere to the integrity requirements.
+I - Isolation: When multiple transaction take place, they must appear to run one-by-one without interfering with each other.
+D - Durability: When a transaction complete successfuly, the changes must be storred permanantly, even in a system failure.
 
+### What were the advantages of working in this way?
+When you follow the ACID principles when programming in databases, you ensure you will create a reliable and maintainable program.
 
+### How else could you use this CRUD Python module in the future?
+Using the knowledge gained from creating the CRUD Python module, I can now have more confidence in making bigger programs that utilize more than just one script. Creating an actual module to drive speific parts of the program as a whole makes the overall program more readable and easier to maintain.
 
+### How do you approach a problem as a computer scientist?
+If I have a problem, I begin by writing down the path at which I took to get to that problem. Instead of trying to go straight to finding a programmable solution, you slow down to think of why the problem occurred in the first place, then you can take steps to find solutions.
+
+### How did your approach to this project differ from previous assignments in other courses?
+In previous assignments and courses, you really only had to worry about one file at a time, when working with databases and this final project, you had to write a module that then another program would utilize to drive specific features. This means there a lot more moving parts, but means in the end, the project is easier to maintain. You prevent having spaghetti code by seperating bigger functionalities. Similar to having a function for each feature, having a module for bigger tasks is the way to go. Especially if you want multiple scripts to be able to utilize the same feature, you prevent yourself from having re-write it multiple times.
+
+### What do computer scientists do, and why does it matter?
+In the end, a coder converts requests in normal language into something a computer will understand. Further, a computer scientist will ensure this computer language is efficient, reliable and easy to understand for other computer scientists while also adhering to regulations and rules.
