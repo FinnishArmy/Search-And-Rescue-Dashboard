@@ -26,7 +26,7 @@
   * [Sunburst](#sunburst)
   * [Styling](#styling)
   * [Logo](#logo)
-- [Q&A](#q&a)
+- [Q&A](#q--a)
 
 ## About the project
 Grazioso Salvare identifies dogs that are good candidates for search-and-rescue training. When trained, these dogs are able to find and help to rescue humans or other animals, often in life-threatening conditions.
@@ -191,10 +191,10 @@ Below shows the test for creation, reading, updating and deletion. If this does 
 ## Q & A
 ### How do you write programs that are maintainable, readable, and adaptable?
 By ensuring that your code follows the basic rules of programming (ACID):
-A - Atomicity: ensure that every action works, if one single transaction fails the entire transaction must be rolled back.
-C - Consistency: every transaction must bring the database from one valid state to another valid state. Any data written to the database must adhere to the integrity requirements.
-I - Isolation: When multiple transaction take place, they must appear to run one-by-one without interfering with each other.
-D - Durability: When a transaction complete successfuly, the changes must be storred permanantly, even in a system failure.
+* A - Atomicity: ensure that every action works, if one single transaction fails the entire transaction must be rolled back.
+* C - Consistency: every transaction must bring the database from one valid state to another valid state. Any data written to the database must adhere to the integrity requirements.
+* I - Isolation: When multiple transaction take place, they must appear to run one-by-one without interfering with each other.
+* D - Durability: When a transaction complete successfuly, the changes must be storred permanantly, even in a system failure.
 
 ### What were the advantages of working in this way?
 When you follow the ACID principles when programming in databases, you ensure you will create a reliable and maintainable program.
